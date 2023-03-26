@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cuadros{
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    min-width: 325px;
+    max-width: 325px;
+    padding: 2.5rem;
+}
+
+.left-section{
+    color: #fff;
+    background: linear-gradient(to bottom, #6946fb, #322cdf);
+    border-radius: 25px;
+}
+.results{
+    font-size: 1.5em;
+    opacity: .7;
+}
+
+.right-section{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 20px 10px 40px -30px #918E8E;
+}
+
+
+
+.score-circle {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #4d22cb, transparent);
+  }
+.score-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+
+.score-circle span{
+    font-size: 4em;
+}
+
+.score-circle p{
+    opacity: .5;
+}
+
+.great{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.average-score{
+    opacity: .7;
+    padding: 0 1rem;
+}
+
+.summary{
+    font-size: 24px;
+    align-self: flex-start;
+    font-weight: 600;
+}
+
+.scores{
+    font-style: none;
+    height: 100%;
+    margin: 3rem;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.scores-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.scores-card i{
+    position: relative;
+    top: 1px;
+    margin-right: 10px;
+}
+
+.continue-btn{
+    width: 100%;
+    padding: 1.1em;
+    border: none;
+    border-radius: 30px;
+    background-color: #303b59;
+    color: #fff;
+}
